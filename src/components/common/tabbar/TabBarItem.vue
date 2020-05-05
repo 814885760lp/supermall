@@ -34,7 +34,7 @@ export default {
   methods: {
     itemClick() {
       if (this.$route.path === this.path) return;
-      this.$router.replace(this.path).catch(error => {});
+      this.$router.replace(this.path);
     }
   }
 };

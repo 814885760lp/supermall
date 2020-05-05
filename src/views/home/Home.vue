@@ -150,6 +150,7 @@ export default {
     /**
      * 网络请求相关方法
      */
+    //轮播图、推荐数据获取
     getHomeMultidata() {
       getHomeMultidata().then(res => {
         // console.log(res);
@@ -157,6 +158,7 @@ export default {
         this.recommends = res.data.recommend.list;
       });
     },
+    //分类数据获取
     getHomeGoods(type) {
       const page = this.goods[type].page + 1;
       getHomeGoods(type, page).then(res => {

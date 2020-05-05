@@ -51,15 +51,19 @@ export default {
   },
 
   methods: {
+    //定位
     scrollTo(x, y, time = 300) {
       this.scroll && this.scroll.scrollTo(x, y, time);
     },
+    //上拉的结束
     finishPullUp() {
       this.scroll.finishPullUp();
     },
+    //刷新
     refresh() {
       this.scroll && this.scroll.refresh();
     },
+    //跳转
     getScrollY() {
       return this.scroll ? this.scroll.y : 0;
     }
