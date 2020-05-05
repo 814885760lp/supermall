@@ -1,13 +1,14 @@
 <template>
-  <h2>我是分类</h2>
+  <div class="wrapper">
+    <h2>我是分类</h2>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Category'
-}
+  name: "Category"
+};
 </script>
 
 <style>
-
 </style>
