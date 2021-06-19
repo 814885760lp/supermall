@@ -1,6 +1,4 @@
 
-PS:需要接口添加老师微信获取: coderwhy002
-
 # supermall
 
 ## Project setup
